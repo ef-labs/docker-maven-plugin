@@ -6,7 +6,7 @@
 
   <groupId>io.fabric8</groupId>
   <artifactId>docker-maven-plugin</artifactId>
-  <version>0.15.2-SNAPSHOT</version>
+  <version>0.15.2-EF1</version>
   <packaging>maven-plugin</packaging>
 
   <name>maven-docker-plugin</name>
@@ -346,15 +346,9 @@
 
 
   <distributionManagement>
-    <snapshotRepository>
-      <id>sonatype-nexus-snapshots</id>
-      <name>Sonatype Nexus Snapshots</name>
-      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-    </snapshotRepository>
     <repository>
-      <id>sonatype-nexus-staging</id>
-      <name>Nexus Release Repository</name>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+      <id>etown-nexus</id>
+      <url>https://nexus-bos.englishtown.com/content/repositories/releases</url>
     </repository>
   </distributionManagement>
 
